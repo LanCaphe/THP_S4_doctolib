@@ -1,25 +1,10 @@
-# README
+# Doctolib fake data base
+Dans le cadre de la formation The Hacking Project, on a réalisé une data base sur le modele de doctolib en version simplifiée.
+Créations des tables et liaisons entre elles
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+N'oubliez pas de faire un bundle install juste après le git clone de ce répo.
 
-Things you may want to cover:
+L'équipe de Lille
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Maxime et Manon
 # THP_S4_doctolib
