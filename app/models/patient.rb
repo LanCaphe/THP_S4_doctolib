@@ -3,4 +3,5 @@ class Patient < ApplicationRecord
 #il peut avoir plusieurs docteurs via des rendez vous différents
 has_many :appointments
 has_many :doctors, :through => :appointments
+has_one :city
 end

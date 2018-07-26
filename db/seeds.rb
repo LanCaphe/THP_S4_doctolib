@@ -18,3 +18,6 @@ end
 	b = rand (1..35)
 	appointment=Appointment.create(date: Faker::Date.between_except(1.year.ago, 1.year.from_now, Date.today), doctor_id: a, patient_id: b)
 end
+# 5noms de villes
+5.times do |index|
+	city=City.create(name: Faker::TwinPeaks.location)

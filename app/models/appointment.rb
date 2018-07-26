@@ -3,4 +3,5 @@ class Appointment < ApplicationRecord
 #table patient.
 	belongs_to :patient
 	belongs_to :doctor
+	has_one :city
 end
