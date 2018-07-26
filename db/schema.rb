@@ -41,8 +41,6 @@ ActiveRecord::Schema.define(version: 2018_07_26_204514) do
   create_table "doctors_specialities", id: false, force: :cascade do |t|
     t.integer "doctor_id", null: false
     t.integer "speciality_id", null: false
-    t.index ["doctor_id", "speciality_id"], name: "index_doctors_specialities_on_doctor_id_and_speciality_id"
-    t.index ["speciality_id", "doctor_id"], name: "index_doctors_specialities_on_speciality_id_and_doctor_id"
   end
 
   create_table "patients", force: :cascade do |t|
